@@ -4,6 +4,6 @@ from rango import views
 __author__ = 'DuyAnhPham'
 
 urlpatterns = [
-    url(r'^', views.index, name='index'), #in
+    url(r'^', views.index, name='index'), #index
 ]
 

@@ -1,0 +1,16 @@
+{% extends 'rango/base.html' %}
+
+{% load staticfiles %}
+
+{% block title_block %}
+    About
+{% endblock %}
+
+{% block body_block %}
+    <h1>About</h1>
+
+    {% if user.authenticated %}
+        Angel on the grass!
+        <img src="{% static "images/IMG_4588.JPG" %}" alt="#her on the green grass" height=500 width=700/>
+    {% endif %}
+{% endblock %}
